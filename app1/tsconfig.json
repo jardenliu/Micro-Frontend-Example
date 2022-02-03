@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "module": "esnext",
+        "target": "es5",
+        "baseUrl": "./src",
+        "moduleResolution": "node",
+        "strict": false,
+        "types": ["node", "vuex"],
+        "lib": ["ES2015", "ES6", "ES5", "ES7"],
+        "typeRoots": ["types"],
+        "esModuleInterop": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
+    },
+    "ts-node": {
+        "compilerOptions": {
+            "module": "commonjs"
+        }
+    },
+    "include": ["./src/*"],
+    "exclude": ["node_modules/*"]
+}
