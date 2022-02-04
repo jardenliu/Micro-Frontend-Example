@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-page">welcome</div>
+  <div class="app2-page" id="app2"></div>
 </template>
 
 <script lang="ts">
@@ -7,9 +7,9 @@ import Vue from "vue";
 import { Component } from "vue-property-decorator";
 
 @Component({
-  name: "Welcome",
+  name: "app2",
 })
-export default class Welcome extends Vue {
+export default class app2 extends Vue {
   mounted() {
     console.log(this.$store);
   }

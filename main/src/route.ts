@@ -4,23 +4,22 @@ import Router from "vue-router";
 Vue.use(Router);
 
 export default new Router({
-  mode: "hash",
-
+  mode: "history",
   routes: [
     {
       name: "root",
       path: "/",
-      redirect: "/welcome",
+      redirect: "/app1",
     },
     {
-      name: "welcome",
-      path: "/welcome",
-      component: () => import("components/welcome.vue"),
+      name: "app1",
+      path: "/app1",
+      component: () => import("components/app1.vue"),
     },
     {
-      name: "hello",
-      path: "/hello",
-      component: () => import("components/hello.vue"),
+      name: "app2",
+      path: "/app2",
+      component: () => import("components/app2.vue"),
     },
   ],
 });

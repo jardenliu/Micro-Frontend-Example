@@ -7,7 +7,7 @@
         "moduleResolution": "node",
         "strict": false,
         "types": ["node", "vuex"],
-        "lib": ["ES2015", "ES6", "ES5", "ES7"],
+        "lib": ["ES2015", "ES6", "ES5", "ES7", "DOM"],
         "typeRoots": ["types"],
         "esModuleInterop": true,
         "emitDecoratorMetadata": true,

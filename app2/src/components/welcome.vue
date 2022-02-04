@@ -1,5 +1,5 @@
 <template>
-  <div class="welcome-page">welcome</div>
+  <div class="welcome-page">app3-welcome</div>
 </template>
 
 <script lang="ts">

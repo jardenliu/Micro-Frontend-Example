@@ -1,6 +1,6 @@
 <template>
   <div class="app-page">
-    应用
+    我是App1
     <router-link :to="{ name: 'welcome' }" tag="button">welcome</router-link>
     <router-link :to="{ name: 'hello' }" tag="button">hello</router-link>
     <router-view></router-view>
